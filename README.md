@@ -28,16 +28,7 @@ cd your-repo
 2. **Backend (Laravel)**:
    - Install Laravel dependencies:
      ```bash
-     cd backend
      composer install
-     ```
-   - Set up environment variables:
-     ```bash
-     cp .env.example .env
-     ```
-   - Generate the application key:
-     ```bash
-     php artisan key:generate
      ```
    - Run database migrations:
      ```bash
@@ -50,7 +41,6 @@ cd your-repo
 3. **Frontend (Vue.js)**:
    - Install Vue.js dependencies:
      ```bash
-     cd ../frontend
      npm install
      ```
    - Start the Vue development server:
@@ -61,6 +51,3 @@ cd your-repo
 **Usage**:
 - Access the Laravel backend at: `http://localhost:8000`
 - Access the Vue.js frontend at: `http://localhost:5173`
-
-**Contributing**:
-- Fork the repository and submit a pull request for any contributions or improvements.
