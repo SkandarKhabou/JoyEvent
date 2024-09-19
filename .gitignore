@@ -1,0 +1,90 @@
+# Laravel & Composer
+/vendor
+/node_modules
+/.phpunit.result.cache
+/.env
+/.env.*
+/storage/*.key
+/storage/*.log
+/storage/framework/cache
+/storage/framework/sessions
+/storage/framework/views
+/storage/app/public
+/public/hot
+/public/storage
+/public/build
+
+# Laravel IDE Helper
+/_ide_helper.php
+/_ide_helper_models.php
+/_ide_helper.php.md
+
+# Laravel Telescope
+/telescope
+
+# Laravel Mix
+/.mix
+/mix-manifest.json
+
+# NPM / Yarn
+*.log
+*.lock
+npm-debug.log
+yarn-error.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Build output
+/dist
+/build
+
+# Other files and directories
+*.sublime-workspace
+*.sublime-project
+*.vscode
+*.idea
+*.swp
+*.swo
+
+# Misc
+/.vscode
+/.idea
+*.suo
+*.ntvs_analysis.dat
+*.ncb
+*.suo
+*.sln
+*.suo
+*.tlog
+*.pdb
+*.suo
+
+# IDEs
+*.iml
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Laravel Nova
+/nova-components
+
+# Jetstream
+/jetstream
+
+# Vue.js
+/.nuxt
+/.next
+/.vuepress
+/dist
+
+# Build output
+/dist
+/build
+
+# Logs
+*.log
+*.log.*
